@@ -1,0 +1,23 @@
+$primary-color: #479cff;
+$secondary-color: #f2f8ff;
+$grey: #626262;
+
+.background {
+  background-color: $secondary-color;
+}
+
+.navbar-link {
+  color: $grey;
+
+  &:visited {
+    color: $grey;
+  }
+
+  &:active {
+    color: $primary-color;
+  }
+
+  &:hover {
+    color: $primary-color;
+  }
+}
