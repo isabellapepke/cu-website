@@ -10,6 +10,12 @@ node_sass:
   precision: 5
   sourceComments: false
 
+excerpt:
+  depth: 1
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
+
 # Custom vars
 navbar:
   entries:  [

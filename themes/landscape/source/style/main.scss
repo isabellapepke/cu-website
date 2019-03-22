@@ -21,3 +21,24 @@ $grey: #626262;
     color: $primary-color;
   }
 }
+
+.blog-title-link {
+  color: $primary-color;
+
+  &:visited {
+    color: $primary-color;
+  }
+
+  &:active {
+    color: $primary-color;
+  }
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.date {
+  color: $grey;
+  margin-bottom: 0;
+}

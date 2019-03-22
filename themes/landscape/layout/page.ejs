@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+    <html>
     <%- partial('partials/head') %>
     <body>
         <%- partial('partials/navbar') %>
-        <%- partial('partials/blogs')%>
+        <div class="container">
+            <%- page.content %>
+        </div>
         <%- partial('partials/scripts') %>
     </body>
 </html>
