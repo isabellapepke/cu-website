@@ -1,0 +1,12 @@
+language: node_js
+
+os:
+  - windows
+  - linux
+  - osx
+
+install:
+  - npm ci
+
+script:
+  - npm run build
