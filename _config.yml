@@ -1,0 +1,24 @@
+title: Cool Blog
+author: Jonathan Burns
+language: en
+
+source_dir: source
+public_dir: public
+
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
+
+excerpt:
+  depth: 1
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
+
+# Custom vars
+navbar:
+  entries:  [
+              ["Home", "/"],
+              ["About", "/about"]
+            ]
