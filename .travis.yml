@@ -6,7 +6,6 @@ node_js:
 cache: npm
 
 os:
-  - windows
   - linux
   - osx
 
