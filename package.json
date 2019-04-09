@@ -2,7 +2,8 @@
   "name": "hexo-site",
   "version": "1.0.0",
   "scripts": {
-    "start": "hexo server --open"
+    "start": "hexo server --open",
+    "build": "hexo generate"
   },
   "hexo": {
     "version": "3.8.0"
