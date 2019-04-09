@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/UXSoc/cu-website.svg?branch=master)](https://travis-ci.com/UXSoc/cu-website)
 # cu-website
 
 See live: https://agitated-thompson-23da93.netlify.com/
