@@ -1,9 +1,5 @@
-Thumbs.db
-db.json
-debug.log
 node_modules/
-public/
-.deploy/
+www/
 
 #for Webstorm
 .idea
