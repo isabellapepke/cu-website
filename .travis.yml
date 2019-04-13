@@ -20,7 +20,7 @@ before_install:
                         --iv "$encrypted_c7fb6a38b66f_iv" \
                         --path-encrypted-key "./api-keys/travis-cu-site.enc"
                         # Change the $encrypted_XXXXXXXX to your values
-- f [[ "$TRAVIS_OS_NAME" == "osx" ]]; 'echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config' ; fi
+- if [[ "$TRAVIS_OS_NAME" == "osx" ]]; 'echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config' ; fi
 
 install:
   - npm i
