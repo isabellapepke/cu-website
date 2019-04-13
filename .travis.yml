@@ -14,12 +14,12 @@ env:
   - secure: "rWqjQMOXQMm2Qxjui+LyX3PEiUO3/VA4QLMCfMegzzi/HFtPpSRiEEHRhsFaDOb2eJjNCHlNCaz8si0CFvmvsvFgOjnViXHhGgVZwbss5IBFuuZDNc9jo9TXTs+grKUDr4E3Cmq2tiQFXcDQ7RkbfMEeNdDYrtXUrPLkxn3ci4GOqf4Q0T2zEqq3g3aud/vF/Eg0gOW5jb+pZa8Vm+bRLtDVHrNwKFbECPIYqO8KC9pVECYiu275Quxhf61QGQyT1fTqAw0MJaDDi51Yg2dsG6EmPL94S2WxBQ/qubS+W00wtOKzb0DZW5i+MeaUQm+txZgXANZZ11WZejYHXEffedcJ3ZpWQNMIvLUKAZIpsaEqcO9+yvUB/n1fnqmqsk+GInWR/TwCVoXx9YYnKj3bytC5+IGHVnHsguqqMpenLixbHWBI1wjkO6s3kzQLRGI1OwT9ZyRJQmV26DL4mT2YppZhqZquPIlKSKibUOtdjODeV1NXHB1tSrsvt577MeWg7d+/VeqJZTZ+vEToCBmMKkS560c/0hF7sGxu5q24cFSILzbPnSJtQPJj1Zqewyk6T8aYwXHmAoobs82HUMomijBTHWjYql/4GUcwl7UdO39WAqzxrKDosc5Yxb+wvYfcdBvUdHK9ur3nRpUsW85Kd+EYzgqTBBsQTjMM/zlT8Ts="
 
 before_install:
-  - if [ "$TRAVIS_PULL_REQUEST" = "false" && "$TRAVIS_OS_NAME" == "linux"]; then npm install @alrra/travis-scripts@3.0.1 ; fi
-  - if [ "$TRAVIS_PULL_REQUEST" = "false" && "$TRAVIS_OS_NAME" == "linux"]; then
-      '$(npm bin)/set-up-ssh --key "$encrypted_c7fb6a38b66f_key" \
-                            --iv "$encrypted_c7fb6a38b66f_iv" \
-                            --path-encrypted-key "./api-keys/travis-cu-site.enc"' ; fi
-                          # Change the $encrypted_XXXXXXXX to your values
+  - if [[ "$TRAVIS_PULL_REQUEST" = "false" && "$TRAVIS_OS_NAME" == "linux" ]]; then npm install @alrra/travis-scripts@3.0.1 ; fi
+  - if [[ "$TRAVIS_PULL_REQUEST" = "false" && "$TRAVIS_OS_NAME" == "linux" ]]; then \
+                          $(npm bin)/set-up-ssh --key "$encrypted_c7fb6a38b66f_key" \
+                                                --iv "$encrypted_c7fb6a38b66f_iv" \
+                                                --path-encrypted-key "./api-keys/travis-cu-site.enc" ; fi
+                                                # Change the $encrypted_XXXXXXXX to your values
   - 'echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config'
 
 install:
@@ -27,6 +27,7 @@ install:
 
 script:
   - harp compile
+  - ls -R build/
 
 after_success:
     # Only sync from linux text, to prevent double syncing
