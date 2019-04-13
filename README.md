@@ -5,11 +5,15 @@ See live: https://agitated-thompson-23da93.netlify.com/
 
 Edit: https://glitch.com/~incandescent-shield (remix to edit)
 
+## Machine setup
 
-## Dev
+```
+npm i -g harp
+harp server
+```
 
-First install with `npm i`
+## Developing the project
 
-To develop the website: `npm start` 
+View the site by typing `harp server` and going to `localhost:9000` 
 
-Build the website for release: `npm run build`, which is outputed to *public/*
+Build the website for release: `harp compile`, which is outputed to *www/*
