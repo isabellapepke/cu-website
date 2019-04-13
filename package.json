@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "scripts": {
     "start": "harp server",
-    "build": "harp compile ./public ./build"
+    "build": "harp compile ./public ./build",
+    "sync": "node glitch-sync.js -d -p",
+    "safe-sync": "node glitch-sync.js -d",
+    "update": "git push && npm run sync"
   },
   "devDependencies": {},
   "dependencies": {
-    "harp": "^0.30.0"
+    "harp": "^0.30.0",
+    "args": "^5.0.1",
+    "colors": "^1.3.1",
+    "sync-glitch-cli": "^2.0.1"
+  },
+  "optionalDependencies": {
+    "api-keys": "git+ssh://git@github.com/jhburns/api-keys.git"
   }
 }
