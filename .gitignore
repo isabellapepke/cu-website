@@ -1,5 +1,6 @@
 node_modules/
 www/
+build/
 
 #for Webstorm
 .idea

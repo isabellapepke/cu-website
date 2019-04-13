@@ -2,9 +2,11 @@
   "name": "cu-website",
   "version": "1.0.0",
   "scripts": {
-    "start": "harp server"
+    "start": "harp server",
+    "build": "harp compile ./public ./build"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "harp": "^0.30.0"
   }
 }

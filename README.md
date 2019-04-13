@@ -5,15 +5,14 @@ See live: https://agitated-thompson-23da93.netlify.com/
 
 Edit: https://glitch.com/~incandescent-shield (remix to edit)
 
-## Machine setup
+## Setup
 
-```
-npm i -g harp
-harp server
-```
+1. `npm i`
+1. `npm run start` -> visit URL in browser, which should be http://localhost:9000/.
 
-## Developing the project
+## TroubleShooting
 
-View the site by typing `harp server` and going to `localhost:9000` 
+See http://harpjs.com/ for API.
 
-Build the website for release: `harp compile`, which is outputed to *www/*
+Is a harp giving a 404 or another issue? Try the command `npm run build` and check the build
+folder to see problems.  
