@@ -22,7 +22,7 @@ before_install:
                         # Change the $encrypted_XXXXXXXX to your values
 
 install:
-  - npm ci
+  - npm i
 
 script:
   - harp compile
