@@ -10,9 +10,10 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "harp": "^0.30.0",
+    "@alrra/travis-scripts": "^3.0.1",
     "args": "^5.0.1",
     "colors": "^1.3.1",
+    "harp": "^0.30.0",
     "sync-glitch-cli": "^2.0.1"
   },
   "optionalDependencies": {
