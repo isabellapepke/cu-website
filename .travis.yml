@@ -15,12 +15,9 @@ env:
 
 before_install:
   - if [[ "$TRAVIS_PULL_REQUEST" = "false" && "$TRAVIS_OS_NAME" == "linux" ]]; then npm install @alrra/travis-scripts@3.0.1 ; fi
-  
-  - if [[ "$TRAVIS_PULL_REQUEST" = "false" && "$TRAVIS_OS_NAME" == "linux" ]]; then \
-    $(npm bin)/set-up-ssh --key "$encrypted_c7fb6a38b66f_key" \
-    --iv "$encrypted_c7fb6a38b66f_iv" \
-    --path-encrypted-key "./api-keys/travis-cu-site.enc" ; fi
-    # Change the $encrypted_XXXXXXXX to your values
+
+  - if [[ "$TRAVIS_PULL_REQUEST" = "false" && "$TRAVIS_OS_NAME" == "linux" ]]; then $(npm bin)/set-up-ssh --key "$encrypted_c7fb6a38b66f_key" --iv "$encrypted_c7fb6a38b66f_iv" --path-encrypted-key "./api-keys/travis-cu-site.enc" ; fi
+            # Putting this on more than one line may cause it to break                # Change the $encrypted_XXXXXXXX to your values
 
   - 'echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config'
 
