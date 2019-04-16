@@ -1,0 +1,17 @@
+/* Colors */
+$primary: #008ed4;
+$black: #000000;
+$light-black: #20252B;
+$grey: #7F8389;
+$light-grey: #CDCFD2;
+$white: #ffffff;
+
+/* Fonts */
+$title: 'Lato', sans-serif; /* Replaces BRANDON GROTESQUE */
+$body-sans: 'Montserrat', serif;
+$body-serif: 'Merriweather', sans-serif;
+
+.title-text {
+  font-family: $title;
+  text-transform: uppercase; /* Enforces branding rules */
+}
