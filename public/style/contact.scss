@@ -1,3 +1,9 @@
+@import "variables";
+
 .contact-bg {
-  background-color: #ccffcc;
+  background-color: $primary;
+}
+
+.test {
+  font-family: $body-serif;
 }
