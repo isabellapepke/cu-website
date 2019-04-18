@@ -5,12 +5,31 @@
 
 See live: https://agitated-thompson-23da93.netlify.com/
 
-Edit: https://glitch.com/~incandescent-shield (remix to edit)
+<!-- Remix Button -->
+<a href="https://glitch.com/edit/#!/remix/incandescent-shield">
+  <img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726" alt="remix this" height="33">
+</a> ⇦ Click to start editing in browser
 
 ## Setup
 
 1. `npm i`
 1. `npm run start` -> visit URL in browser, which should be http://localhost:9000/.
+
+
+# Update Glitch
+
+If you've made a remix on Glich, follow these steps to update to the current version:
+    
+- Select 'Tools' in the lower right. 
+- Select 'Git, Import, and Export'. 
+- 'Grant access' to GitHub if needed, and select 'Import from GitHub'.
+
+![Importing from Github][documentation_images/gitimport.png]
+
+- Put "UXSoc/cu-website" in the field that pops-up, and hit 'OK'.
+
+![Importing from Github][documentation_images/gitimport2.png]
+
 
 ## TroubleShooting
 
