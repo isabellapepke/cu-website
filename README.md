@@ -28,7 +28,7 @@ If you've made a remix on Glich, follow these steps to update to the current ver
 
 - Put "UXSoc/cu-website" in the field that pops-up, and hit 'OK'.
 
-![Importing from Github](documentation_images/gitimport2.png)
+![Entering Github slug](documentation_images/githubimport2.png)
 
 
 ## TroubleShooting
