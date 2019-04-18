@@ -5,7 +5,7 @@
 
 See live: https://agitated-thompson-23da93.netlify.com/
 
-Main Glitch app: https://glitch.com/edit/#!/incandescent-shield
+Main Glitch app:  https://glitch.com/~incandescent-shield 
 
 <!-- Remix Button -->
 <a href="https://glitch.com/edit/#!/remix/incandescent-shield">
