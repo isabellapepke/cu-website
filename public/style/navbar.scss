@@ -1,0 +1,26 @@
+@import "variables";
+
+.navbar-logo {
+  height: 4rem;
+  width: auto;
+}
+
+.navbar-text {
+  font-size: 1.3rem;
+}
+
+.navbar-text {
+  color: $grey !important;
+
+  &:hover {
+    color: $light-black !important;
+  }
+
+  &:active {
+    color: $light-black !important;
+  }
+}
+
+.bg-light {
+  background-color: $white !important;
+}
