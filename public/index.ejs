@@ -9,29 +9,8 @@
     </head>
 
     <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">User Experience Society</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Calendar</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <%- partial("partials/navbar.ejs") %>
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -75,6 +54,9 @@
           </div>
         </div>
       </div>
+
+      <%- partial("partials/footer.ejs") %>
+
 
         <div id="scripts">
             <!-- external CDN scripts  -->
