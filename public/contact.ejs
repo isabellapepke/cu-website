@@ -59,6 +59,13 @@
 
             </div>
 
+
+        <h3 >Example! Delete later</h3>
+        <% for (var article in public._data) { %>
+            <h2><%= public._data[article].title %></h2>
+            <p><%= public._data[article].date %></p>
+        <% } %>
+
         <%- partial("partials/footer.ejs") %>
 
     <div id="scripts">
