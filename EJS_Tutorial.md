@@ -37,7 +37,8 @@ automatic content generation.
 Here is an example, given these files both in */public*:
 
 **_data.json**
-```{
+```
+    {
      "hello-world": {
        "title": "Hello World.",
        "date": "2019-02-28"
