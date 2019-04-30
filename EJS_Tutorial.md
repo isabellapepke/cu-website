@@ -7,7 +7,7 @@ This won't change your preexisting html, but will allow the use of new features.
 
 ## Adding partials
 
-A 'partial' is just a section of a full HTML document. For example the navbar and footer and put into
+A 'partial' is just a section of a full HTML document. For example the navbar and footer can be put into
 partials so each separate page can  have the same navbar and footer.
 
 Here is the syntax:
@@ -71,3 +71,7 @@ Will output:
 
 - The data file is placed in the *public.[folder path]._data* variable, were folder path is the 
 location from */public*.
+- `<%` starting tag around the first and last line in *example.ejs* tell EJS that the contents are
+only for control, and nothing is printed to the file. 
+- Conversely the `<%=` starting tag indicates that values are printed to the file HTML escaped, 
+for the title and data. 
