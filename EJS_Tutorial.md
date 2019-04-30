@@ -57,7 +57,7 @@ Here is an example, given these files both in */public*:
         <% } %>
 ```
 
-Will ouptut:
+Will output:
 ```
             <h2>Hello World.</h2>
             <p>2019-02-28</p>
