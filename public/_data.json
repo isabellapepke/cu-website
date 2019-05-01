@@ -1,50 +1,56 @@
 {
   "Aimee-Bowen": {
-    "picture": "filler",
+    "picture": "AimeeBowen.jpg",
     "name": "Aimee Bowen",
-    "major": "Graphic Design, Computer Information System",
-    "role": "Designer"
+    "major": "Graphic Design & Computer Information Systems",
+    "role": "Designer, Project Manager"
   },
   "Jonathan-Burns": {
-    "picture": "filler",
+    "picture": "JonathanBurns.jpg",
     "name": "Jonathan Burns",
     "major": "Computer Science",
-    "role": "Developer"
-  },
-  "Arshia-Sharma":{
-    "picture": "filler",
-    "name": "Arshia Sharma",
-    "major": "Computer Science",
-    "role": "Developer"
+    "role": "Developer, Project Manager"
   },
   "Emily-Chan": {
-    "picture": "filler",
+    "picture": "EmilyChan.jpg",
     "name": "Emily Chan",
     "major": "Computer Science",
+    "role": "Developer"
+  },
+  "Peter-Chen": {
+    "picture": "PeterChen.jpg",
+    "name": "Haifan(Peter) Chen",
+    "major": "Computer Science",
+    "role": "Developer, Designer"
+  },
+  "Emily-Le": {
+    "picture": "EmilyLe.jpg",
+    "name": "Emily Le",
+    "major": "Business Administration",
     "role": "Designer"
   },
+  "Miles-Milosevich": {
+    "picture": "MilesMilosevich.jpg",
+    "name": "Miles Milosevich",
+    "major": "Software Engineering",
+    "role": "Business Analyst/Researcher"
+  },
+  "Arshia-Sharma": {
+    "picture": "ArshiaSharma.jpg",
+    "name": "Arshia Sharma",
+    "major": "Computer Science",
+    "role": "Developer, Business Analyst/Researcher"
+  },
   "Xavi-Ablaza": {
-    "picture": "filler",
+    "picture": "XaviAblaza.jpg",
     "name": "Xavi Ablaza",
     "major": "Software Engineering",
-    "role": "Alumni"
+    "role": "Founder / Alumni"
   },
-  "Peter-Chen":{
-    "picture": "filler",
-    "name": "Haifan (Peter) Chen",
-    "major": "Computer Science",
-    "role": "Designer and Developer"
-  },
-  "Bella-Pepke":{
-    "picture": "filler",
+  "Bella-Pepke": {
+    "picture": "BellaPepke.jpg",
     "name": "Bella Pepke",
-    "major": "Cello",
-    "role": "Designer and Developer"
-  },
-  "Miles-Milosevich":{
-    "picture": "filler",
-    "name": "Miles Milosevich",
-    "major": "Computer Science",
-    "role": "Developer"
+    "major": "Music Performance in Cello Performance, Minor: Computer Science",
+    "role": "Alumni"
   }
 }
