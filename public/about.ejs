@@ -22,69 +22,24 @@
 
       <div class="container">
         <h1 class="display-4">Members</h1>
+
         <div class="row">
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://cdn.glitch.com/f1f2766e-3d74-4994-aef5-41a892aa118e%2Fj-burns.png?1555352113417" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Jonathan Burns</h5>
-                <p class="card-text">Computer Science</p>
-                <p class="card-text">Developer</p>
+        <% for (var article in public._data) { %>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/<%= public._data[article].picture %>" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"><%= public._data[article].name %></h5>
+                  <p class="card-text">Major: <%= public._data[article].major %></p>
+                  <p class="card-text">Role: <%= public._data[article].role %></p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://cdn.glitch.com/f1f2766e-3d74-4994-aef5-41a892aa118e%2Fj-burns.png?1555352113417" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Jonathan Burns</h5>
-                <p class="card-text">Computer Science</p>
-                <p class="card-text">Developer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://cdn.glitch.com/f1f2766e-3d74-4994-aef5-41a892aa118e%2Fj-burns.png?1555352113417" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Jonathan Burns</h5>
-                <p class="card-text">Computer Science</p>
-                <p class="card-text">Developer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://cdn.glitch.com/f1f2766e-3d74-4994-aef5-41a892aa118e%2Fj-burns.png?1555352113417" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Jonathan Burns</h5>
-                <p class="card-text">Computer Science</p>
-                <p class="card-text">Developer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://cdn.glitch.com/f1f2766e-3d74-4994-aef5-41a892aa118e%2Fj-burns.png?1555352113417" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Jonathan Burns</h5>
-                <p class="card-text">Computer Science</p>
-                <p class="card-text">Developer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="https://cdn.glitch.com/f1f2766e-3d74-4994-aef5-41a892aa118e%2Fj-burns.png?1555352113417" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Jonathan Burns</h5>
-                <p class="card-text">Computer Science</p>
-                <p class="card-text">Developer</p>
-              </div>
-            </div>
-          </div>
+        <% } %>
         </div>
-      </div>
+
+
+
 
       <%- partial("partials/footer.ejs") %>
 

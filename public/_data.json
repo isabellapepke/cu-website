@@ -1,10 +1,50 @@
 {
-  "hello-world": {
-    "title": "Hello World.",
-    "date": "2019-02-28"
+  "Aimee-Bowen": {
+    "picture": "filler",
+    "name": "Aimee Bowen",
+    "major": "Graphic Design, Computer Information System",
+    "role": "Designer"
   },
-  "hello-brazil": {
-    "title": "Hello Brazil.",
-    "date": "2019-03-04"
+  "Jonathan-Burns": {
+    "picture": "filler",
+    "name": "Jonathan Burns",
+    "major": "Computer Science",
+    "role": "Developer"
+  },
+  "Arshia-Sharma":{
+    "picture": "filler",
+    "name": "Arshia Sharma",
+    "major": "Computer Science",
+    "role": "Developer"
+  },
+  "Emily-Chan": {
+    "picture": "filler",
+    "name": "Emily Chan",
+    "major": "Computer Science",
+    "role": "Designer"
+  },
+  "Xavi-Ablaza": {
+    "picture": "filler",
+    "name": "Xavi Ablaza",
+    "major": "Software Engineering",
+    "role": "Alumni"
+  },
+  "Peter-Chen":{
+    "picture": "filler",
+    "name": "Haifan (Peter) Chen",
+    "major": "Computer Science",
+    "role": "Designer and Developer"
+  },
+  "Bella-Pepke":{
+    "picture": "filler",
+    "name": "Bella Pepke",
+    "major": "Cello",
+    "role": "Designer and Developer"
+  },
+  "Miles-Milosevich":{
+    "picture": "filler",
+    "name": "Miles Milosevich",
+    "major": "Computer Science",
+    "role": "Developer"
   }
 }
