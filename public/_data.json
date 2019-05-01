@@ -1,50 +1,50 @@
 {
-  “Aimee-Bowen”: {
-    “picture”: “AimeeBowen”,
-    “name”: “Aimee Bowen”,
-    “major”: “Graphic Design & Computer Information Systems”,
-    “role”: “Designer, Project Manager”
+  "Aimee-Bowen": {
+    "picture": "AimeeBowen",
+    "name": "Aimee Bowen",
+    "major": "Graphic Design & Computer Information Systems",
+    "role": "Designer, Project Manager"
   },
-  “Jonathan-Burns”: {
-    “picture”: “JonathanBurns”,
-    “name”: “Jonathan Burns”,
-    “major”: “Computer Science”,
-    “role”: “Developer, Project Manager”
+  "Jonathan-Burns": {
+    "picture": "JonathanBurns",
+    "name": "Jonathan Burns",
+    "major": "Computer Science",
+    "role": "Developer, Project Manager"
   },
-  “Emily-Chan”: {
-    “picture”: “EmilyChan”,
-    “name”: “Emily Chan”,
-    “major”: “Computer Science”,
-    “role”: “Developer”
+  "Emily-Chan": {
+    "picture": "EmilyChan",
+    "name": "Emily Chan",
+    "major": "Computer Science",
+    "role": "Developer"
   },
-  “Emily-Le”: {
-    “picture”: “EmilyLe”,
-    “name”: “Emily Le”,
-    “major”: “Business Administration”,
-    “role”: “Designer”
+  "Emily-Le": {
+    "picture": "EmilyLe",
+    "name": "Emily Le",
+    "major": "Business Administration",
+    "role": "Designer"
   },
-  “Miles-Milosevich”: {
-    “picture”: “MilesMilosevich”,
-    “name”: “Miles Milosevich”,
-    “major”: “Software Engineering”,
-    “role”: “Business Analyst/Researcher”
+  "Miles-Milosevich": {
+    "picture": "MilesMilosevich",
+    "name": "Miles Milosevich",
+    "major": "Software Engineering",
+    "role": "Business Analyst/Researcher"
   },
-  “Arshia-Sharma”: {
-    “picture”: “ArshiaSharma”,
-    “name”: “Arshia Sharma”,
-    “major”: “Computer Science”,
-    “role”: “Developer, Business Analyst/Researcher”
+  "Arshia-Sharma": {
+    "picture": "ArshiaSharma",
+    "name": "Arshia Sharma",
+    "major": "Computer Science",
+    "role": "Developer, Business Analyst/Researcher"
   },
-  “Xavi-Ablaza”: {
-    “picture”: “XaviAblaza”,
-    “name”: “Xavi Ablaza”,
-    “major”: “Software Engineering”,
-    “role”: “Founder / Alumni”
+  "Xavi-Ablaza": {
+    "picture": "XaviAblaza",
+    "name": "Xavi Ablaza",
+    "major": "Software Engineering",
+    "role": "Founder / Alumni"
   },
-  “Bella-Pepke”: {
-    “picture”: “BellaPepke”,
-    “name”: “Bella Pepke”,
-    “major”: “Music Performance in Cello Performance, Minor: Computer Science”,
-    “role”: “Alumni”
+  "Bella-Pepke": {
+    "picture": "BellaPepke",
+    "name": "Bella Pepke",
+    "major": "Music Performance in Cello Performance, Minor: Computer Science",
+    "role": "Alumni"
   }
 }
