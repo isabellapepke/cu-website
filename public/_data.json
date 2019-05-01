@@ -1,50 +1,50 @@
 {
-  "Aimee-Bowen": {
-    "picture": "filler",
-    "name": "Aimee Bowen",
-    "major": "Graphic Design, Computer Information System",
-    "role": "Designer"
+  “Aimee-Bowen”: {
+    “picture”: “AimeeBowen”,
+    “name”: “Aimee Bowen”,
+    “major”: “Graphic Design & Computer Information Systems”,
+    “role”: “Designer, Project Manager”
   },
-  "Jonathan-Burns": {
-    "picture": "filler",
-    "name": "Jonathan Burns",
-    "major": "Computer Science",
-    "role": "Developer"
+  “Jonathan-Burns”: {
+    “picture”: “JonathanBurns”,
+    “name”: “Jonathan Burns”,
+    “major”: “Computer Science”,
+    “role”: “Developer, Project Manager”
   },
-  "Arshia-Sharma":{
-    "picture": "filler",
-    "name": "Arshia Sharma",
-    "major": "Computer Science",
-    "role": "Developer"
+  “Emily-Chan”: {
+    “picture”: “EmilyChan”,
+    “name”: “Emily Chan”,
+    “major”: “Computer Science”,
+    “role”: “Developer”
   },
-  "Emily-Chan": {
-    "picture": "filler",
-    "name": "Emily Chan",
-    "major": "Computer Science",
-    "role": "Designer"
+  “Emily-Le”: {
+    “picture”: “EmilyLe”,
+    “name”: “Emily Le”,
+    “major”: “Business Administration”,
+    “role”: “Designer”
   },
-  "Xavi-Ablaza": {
-    "picture": "filler",
-    "name": "Xavi Ablaza",
-    "major": "Software Engineering",
-    "role": "Alumni"
+  “Miles-Milosevich”: {
+    “picture”: “MilesMilosevich”,
+    “name”: “Miles Milosevich”,
+    “major”: “Software Engineering”,
+    “role”: “Business Analyst/Researcher”
   },
-  "Peter-Chen":{
-    "picture": "filler",
-    "name": "Haifan (Peter) Chen",
-    "major": "Computer Science",
-    "role": "Designer and Developer"
+  “Arshia-Sharma”: {
+    “picture”: “ArshiaSharma”,
+    “name”: “Arshia Sharma”,
+    “major”: “Computer Science”,
+    “role”: “Developer, Business Analyst/Researcher”
   },
-  "Bella-Pepke":{
-    "picture": "filler",
-    "name": "Bella Pepke",
-    "major": "Cello",
-    "role": "Designer and Developer"
+  “Xavi-Ablaza”: {
+    “picture”: “XaviAblaza”,
+    “name”: “Xavi Ablaza”,
+    “major”: “Software Engineering”,
+    “role”: “Founder / Alumni”
   },
-  "Miles-Milosevich":{
-    "picture": "filler",
-    "name": "Miles Milosevich",
-    "major": "Computer Science",
-    "role": "Developer"
+  “Bella-Pepke”: {
+    “picture”: “BellaPepke”,
+    “name”: “Bella Pepke”,
+    “major”: “Music Performance in Cello Performance, Minor: Computer Science”,
+    “role”: “Alumni”
   }
 }
