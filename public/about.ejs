@@ -26,8 +26,9 @@
         <div class="row">
         <% for (var article in public._data) { %>
             <div class="col-sm">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/<%= public._data[article].picture %>" alt="Card image cap">
+              <div class="card" style="width: 18rem; bottom-margin: 3rem;">
+                <script type="text/javascript">
+                <img class="card-img-top profile-images" src="img/<%= public._data[article].picture %>" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title"><%= public._data[article].name %></h5>
                   <p class="card-text">Major: <%= public._data[article].major %></p>
